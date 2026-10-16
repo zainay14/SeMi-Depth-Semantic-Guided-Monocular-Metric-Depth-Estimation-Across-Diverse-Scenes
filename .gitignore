@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Checkpoints and model weights
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.onnx
+
+# Data and dataset caches
+data_cache/
+datasets/
+*.h5
+*.hdf5
+*.tar
+*.gz
+*.zip
+
+# Training logs and tensorboard
+runs/
+logs/
+*.log
+events.out.tfevents.*
+
+# Virtual environments & IDE
+.env
+venv/
+env/
+.venv/
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Scratch test files
+scratch/
